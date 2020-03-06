@@ -1,0 +1,67 @@
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+}
+.items {
+  overflow: hidden; /* simple clearfix */
+}
+.color-pry {
+  color: #009688;
+}
+.color-sec {
+  color: #757575;
+}
+.items .item {
+  float: left;
+  width: auto;
+  margin: 8px;
+  text-transform: none;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 10px;
+  user-select: none;
+  color: #757575;
+  border-color: #009688;
+  color: #009688;
+}
+.items .item:hover {
+  color: #fff;
+  background: #009688;
+}
+.social-icons {
+  font-size: 28px;
+  margin: 5px 10px 5px 10px;
+  cursor: pointer;
+}
+video {
+  width: 100%;
+}
+.bg_video {
+  position: fixed;
+  /* right: 0; 
+    bottom: 0; */
+  top: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1000;
+  background: url("video/coding-crop.mp4");
+  background-size: cover;
+}
